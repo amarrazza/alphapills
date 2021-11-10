@@ -87,9 +87,9 @@ section, footer{
     background-position: center;
 }
 
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 nav{
     display: flex;
