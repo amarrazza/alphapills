@@ -144,6 +144,7 @@ h1{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    font-weight: bold;
     
 }
 .leakdetails{
@@ -213,10 +214,10 @@ footer{
     }
     .leaktext h6{
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
     .leaktext ul{
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
 }
