@@ -153,6 +153,7 @@ h1{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    margin-top: 3%;
     
     
 }
@@ -194,7 +195,9 @@ footer{
 .pillhead{
     margin-bottom: 1%;
 }
-
+.leakdetails{
+    border-bottom: 1px dashed #FBFFFB;
+}
 
 @media (max-width: 500px){
     .logo{
