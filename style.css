@@ -199,6 +199,9 @@ footer{
 .leakdetails{
     border-bottom: 1px dashed #FBFFFB;
 }
+.italic{
+    font-style: italic;
+}
 
 @media (max-width: 500px){
     .logo{
