@@ -89,9 +89,9 @@ section, footer{
     background-position: center;
 }
 
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 
 nav{
     display: flex;
@@ -226,7 +226,9 @@ footer{
 .arttrans{
     text-align: center;
 }
-
+.mg{
+    border: 3px solid #264653
+}
 @media (max-width: 500px){
     .logo{
         width: 16%;
