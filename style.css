@@ -211,6 +211,7 @@ footer{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
+    align-items: flex-start;
 }
 .gal{
     width: 30%;
@@ -225,10 +226,12 @@ footer{
 }
 .arttrans{
     text-align: center;
+    margin-top: 3%;
 }
 .mg{
     border: 3px solid #264653
 }
+
 @media (max-width: 500px){
     .logo{
         width: 16%;
@@ -292,9 +295,6 @@ footer{
     }
     .pillhead{
         margin-bottom: 10%;
-    }
-    .imageContainer{
-        align-items: flex-start;
     }
     .gal{
         width: 80%;
