@@ -89,9 +89,9 @@ section, footer{
     background-position: center;
 }
 
-/* *{
+*{
     border: 1px solid red;
-} */
+}
 
 nav{
     display: flex;
@@ -112,11 +112,14 @@ h1{
 .links{
     display: flex;
     align-items: center;
-    margin-right: 5%;
+    justify-content: flex-end;
+    margin-right: 0;
     padding: 1.5%;
+    width: 40%;
 }
 .links a{
-    margin-right: 25%;
+    margin-right: 12%;
+    
 }
 #main{
     background-color: #051124;
@@ -203,6 +206,27 @@ footer{
     font-style: italic;
 }
 
+.imageContainer{
+    margin: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.gal{
+    width: 30%;
+    margin: 2.5% 1%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.itext{
+    text-align: center;
+    padding: 1%
+}
+.arttrans{
+    text-align: center;
+}
+
 @media (max-width: 500px){
     .logo{
         width: 16%;
@@ -254,9 +278,7 @@ footer{
         width: 100%;
         text-align: left;
     }
-    .links{
-        margin-right: 15%;
-    }
+    
     .callinfo{
         margin-bottom: 4%;
     }
@@ -268,5 +290,26 @@ footer{
     }
     .pillhead{
         margin-bottom: 10%;
+    }
+    .imageContainer{
+        align-items: flex-start;
+    }
+    .gal{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .gal p{
+        font-size: .8rem;
+    }
+    .galtopcontent{
+        font-size: 1.1rem;
+    }
+    .arttrans{
+        font-size: 1.1rem;
+        margin-bottom: 10%;
+    }
+    .gencube{
+        margin-bottom: 3%;
+        margin-top: 3%;
     }
 }
