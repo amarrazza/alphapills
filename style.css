@@ -238,6 +238,10 @@ footer{
 .leak1{
     border-bottom: none;
 }
+.discord{
+    width: 7%;
+    margin-top: 3%;
+}
 
 @media (max-width: 500px){
     .logo{
