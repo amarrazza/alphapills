@@ -181,7 +181,7 @@ ul{
     width: 70%;   
 }
 footer{
-    margin: 4% 0;
+    margin: 6% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,6 +234,9 @@ footer{
 }
 .mg{
     border: 3px solid #264653
+}
+.leak1{
+    border-bottom: none;
 }
 
 @media (max-width: 500px){
