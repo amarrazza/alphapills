@@ -181,9 +181,13 @@ ul{
     width: 70%;   
 }
 footer{
-    margin: 10% 0;
-    text-align: center;
+    margin: 4% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+
 .callinfo{
     display: flex;
     flex-flow: row wrap;
