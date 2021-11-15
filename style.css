@@ -67,12 +67,18 @@ h2, h3{
 h6{
     font-size: 2rem;
 }
-a{
+header a{
     text-decoration: none;
     color: darkslategray;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.5rem;
 }
+a{
+    text-decoration: underline;
+    color: #FBFFFB;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+}
+
 button{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.8rem;
@@ -181,7 +187,7 @@ ul{
     width: 70%;   
 }
 footer{
-    margin: 6% 0;
+    margin: 7.5% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -242,6 +248,35 @@ footer{
     width: 7%;
     margin-top: 3%;
 }
+.sortby{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.categories{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.categories a{
+    color: #FBFFFB;
+    font-size: 1.5rem;
+    margin: 0 1%;
+    text-decoration: underline;
+}
+.cattop{
+    width: 50%;
+    text-align: center;
+}
+.pep{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.pep p{
+    font-size: 1.6rem;
+}
+
 
 @media (max-width: 500px){
     .logo{
@@ -327,6 +362,14 @@ footer{
     }
     .discord{
         width: 12%;
-        margin-top: 5%;
+        margin-top: 7%;
+    }
+    .cattop{
+        width: 85%;
+        font-size: .85rem;
+        margin-bottom: 4%;
+    }
+    .pepeltop{
+        margin-bottom: 12%;
     }
 }
