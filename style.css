@@ -286,6 +286,16 @@ footer{
 .holo{
     width: 40%;
 }
+.hololand{
+    width: 50%;
+}
+.andrecom{
+    width: 35%;
+    margin-left: 3%;
+}
+.comicp{
+    width: 40%;
+}
 
 
 @media (max-width: 500px){
@@ -381,5 +391,18 @@ footer{
     }
     .pepeltop{
         margin-bottom: 12%;
+    }
+    .holo{
+        width: 50%;
+    }
+    .hololand{
+        width: 65%;
+    }
+    .andrecom{
+        width: 45%;
+        margin-left: 3%;
+    }
+    .comicp{
+        width: 60%;
     }
 }
