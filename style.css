@@ -276,6 +276,16 @@ footer{
 .pep p{
     font-size: 1.6rem;
 }
+.more{
+    margin-top: 4%;
+}
+.egopep{
+    width: 25%;
+    margin-left: 3%;
+}
+.holo{
+    width: 40%;
+}
 
 
 @media (max-width: 500px){
