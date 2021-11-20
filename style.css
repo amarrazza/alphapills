@@ -318,7 +318,7 @@ footer{
     width: 50%;
 }
 .back a{
-    margin-right: 1%;
+    margin-right: .8%;
     padding-top: .25%;
     text-decoration: none;
 }
@@ -433,5 +433,20 @@ footer{
     }
     .comicp{
         width: 60%;
+    }
+    .page1 a{
+        margin-left: 2%;
+        padding-top: .5%;
+        text-decoration: none;
+    }
+    .page2 a{
+        margin-right: 2%;
+        padding-top: .5%;
+        text-decoration: none;
+    }
+    .back a{
+        margin-right: 2%;
+        padding-top: .5%;
+        text-decoration: none;
     }
 }
