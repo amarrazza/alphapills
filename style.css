@@ -300,6 +300,22 @@ footer{
     margin-top: 2%;
     margin-bottom: 2%;
 }
+.page{
+    display: flex;
+    justify-content: center;
+}
+.page1 a{
+    margin-left: 1%;
+    padding-top: .25%;
+    text-decoration: none;
+}
+.page2 a{
+    margin-right: 1%;
+    text-decoration: none;
+}
+.gal29{
+    width: 25%;
+}
 
 @media (max-width: 500px){
     .logo{
