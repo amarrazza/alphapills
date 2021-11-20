@@ -238,10 +238,10 @@ footer{
     text-align: center;
     margin-top: 3%;
 }
-.mg{
+.mg img{
     border: 3px solid #264653
 }
-.leak1{
+.leak0{
     border-bottom: none;
 }
 .discord{
@@ -305,17 +305,27 @@ footer{
     justify-content: center;
 }
 .page1 a{
-    margin-left: 1%;
+    margin-left: .8%;
     padding-top: .25%;
     text-decoration: none;
 }
 .page2 a{
+    margin-right: .8%;
+    padding-top: .25%;
+    text-decoration: none;
+}
+.back{
+    width: 50%;
+}
+.back a{
     margin-right: 1%;
+    padding-top: .25%;
     text-decoration: none;
 }
 .gal29{
     width: 25%;
 }
+
 
 @media (max-width: 500px){
     .logo{
