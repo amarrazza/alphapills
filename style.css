@@ -306,12 +306,18 @@ footer{
 }
 .page1 a{
     margin-left: .8%;
-    padding-top: .25%;
+    padding-top: .15%;
     text-decoration: none;
 }
 .page2 a{
     margin-right: .8%;
-    padding-top: .25%;
+    margin-left: .82%;
+    padding-top: .15%;
+    text-decoration: none;
+}
+.page3 a{
+    margin-right: .8%;
+    padding-top: .15%;
     text-decoration: none;
 }
 .back{
@@ -440,6 +446,12 @@ footer{
         text-decoration: none;
     }
     .page2 a{
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        padding-top: .6%;
+        text-decoration: none;
+    }
+    .page3 a{
         margin-right: 2.5%;
         padding-top: .6%;
         text-decoration: none;
