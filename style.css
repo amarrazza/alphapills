@@ -464,16 +464,14 @@ footer{
         padding-top: .6%;
         text-decoration: none;
     }
-    .gal38 a{
-        font-size: .8rem;
-    }
+    
     .sortby{
         margin-bottom: 2.5%;
     }
     .sortartist{
         margin-top: 4%;
     }
-    .mg a{
+    .gal a{
         font-size: .8rem;
     }
 }
