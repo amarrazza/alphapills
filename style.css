@@ -250,7 +250,10 @@ footer{
 }
 .sortby{
     text-align: center;
-    margin-bottom: 2%;
+    margin-bottom: 1.6%;
+}
+.sortartist{
+    margin-top: 2.1%;
 }
 .categories{
     display: flex;
@@ -309,13 +312,13 @@ footer{
     padding-top: .15%;
     text-decoration: none;
 }
-.page2 a{
+.page2 a, .page3 a{
     margin-right: .8%;
     margin-left: .82%;
     padding-top: .15%;
     text-decoration: none;
 }
-.page3 a{
+.page4 a{
     margin-right: .8%;
     padding-top: .15%;
     text-decoration: none;
@@ -445,13 +448,13 @@ footer{
         padding-top: .6%;
         text-decoration: none;
     }
-    .page2 a{
+    .page2 a, .page3 a{
         margin-right: 2.5%;
         margin-left: 2.5%;
         padding-top: .6%;
         text-decoration: none;
     }
-    .page3 a{
+    .page4 a{
         margin-right: 2.5%;
         padding-top: .6%;
         text-decoration: none;
