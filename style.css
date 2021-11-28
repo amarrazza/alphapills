@@ -467,4 +467,10 @@ footer{
     .gal38 a{
         font-size: .8rem;
     }
+    .sortby{
+        margin-bottom: 2.5%;
+    }
+    .sortartist{
+        margin-top: 4%;
+    }
 }
