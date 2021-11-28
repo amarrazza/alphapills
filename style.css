@@ -473,4 +473,7 @@ footer{
     .sortartist{
         margin-top: 4%;
     }
+    .mg a{
+        font-size: .8rem;
+    }
 }
