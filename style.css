@@ -334,7 +334,9 @@ footer{
 .gal29{
     width: 25%;
 }
-
+.gal89{
+    width: 40%;
+}
 
 @media (max-width: 500px){
     .logo{
