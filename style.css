@@ -477,6 +477,7 @@ footer{
         font-size: .9rem;
     }
     .categories{
-        width: 80%;
+        margin: 0 9%;
+        text-align: center;
     }
 }
